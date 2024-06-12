@@ -7,6 +7,7 @@ import {usePathname} from "next/navigation"
 
 import {sidebarLinks} from "../constants/index"
 import {cn} from "../lib/utils"
+import Footer from "./Footer"
 
 const Sidebar = ({ user }: SiderbarProps) => {
     const pathname = usePathname()
@@ -21,7 +22,7 @@ const Sidebar = ({ user }: SiderbarProps) => {
                         alt='logo'
                         className='size-[24px] max-xl:size-14'
                     />
-                    <h1 className='sidebar-logo'>Future</h1>
+                    <h1 className='sidebar-logo'>Horizon</h1>
                 </Link>
                 {sidebarLinks.map((item) => {
                     const isActive = pathname === item.route || pathname.startsWith(`${item.route}/`)
@@ -47,7 +48,7 @@ const Sidebar = ({ user }: SiderbarProps) => {
                 })}
                 user
             </nav>
-            footer
+            <Footer user={user}/>
         </section>
     )
 }
