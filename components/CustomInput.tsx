@@ -7,7 +7,7 @@ import {
     FormMessage,
 } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
-import {z} from "zod";
+import {z} from "zod"
 import {authFormSchema} from "../lib/utils"
 
 const formSchema = authFormSchema('sign-up')
@@ -43,7 +43,7 @@ const CustomInput = ({ name, label, placeholder, control }: CustomInput) => {
                 </div>
             )}
         />
-    );
-};
+    )
+}
 
-export default CustomInput;
+export default CustomInput

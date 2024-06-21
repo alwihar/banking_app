@@ -1,9 +1,9 @@
 /* eslint-disable no-unused-vars */
 
 declare type SearchParamProps = {
-  params: { [key: string]: string };
-  searchParams: { [key: string]: string | string[] | undefined };
-};
+  params: { [key: string]: string }
+  searchParams: { [key: string]: string | string[] | undefined }
+}
 
 // ========================================
 
@@ -18,12 +18,12 @@ declare type SignUpParams = {
   ssn?: string;
   email: string;
   password: string;
-};
+}
 
 declare type LoginUser = {
   email: string;
   password: string;
-};
+}
 
 declare type User = {
   $id: string;
@@ -47,7 +47,7 @@ declare type NewUserParams = {
   email: string;
   name: string;
   password: string;
-};
+}
 
 declare type Account = {
   id: string;
@@ -61,7 +61,7 @@ declare type Account = {
   subtype: string;
   appwriteItemId: string;
   sharableId: string;
-};
+}
 
 declare type Transaction = {
   id: string;
@@ -80,7 +80,7 @@ declare type Transaction = {
   channel: string;
   senderBankId: string;
   receiverBankId: string;
-};
+}
 
 declare type Bank = {
   $id: string;
@@ -90,39 +90,39 @@ declare type Bank = {
   fundingSourceUrl: string;
   userId: string;
   sharableId: string;
-};
+}
 
 declare type AccountTypes =
   | "depository"
   | "credit"
   | "loan "
   | "investment"
-  | "other";
+  | "other"
 
-declare type Category = "Food and Drink" | "Travel" | "Transfer";
+declare type Category = "Food and Drink" | "Travel" | "Transfer"
 
 declare type CategoryCount = {
   name: string;
   count: number;
   totalCount: number;
-};
+}
 
 declare type Receiver = {
   firstName: string;
   lastName: string;
-};
+}
 
 declare type TransferParams = {
   sourceFundingSourceUrl: string;
   destinationFundingSourceUrl: string;
   amount: string;
-};
+}
 
 declare type AddFundingSourceParams = {
   dwollaCustomerId: string;
   processorToken: string;
   bankName: string;
-};
+}
 
 declare type NewDwollaCustomerParams = {
   firstName: string;
@@ -135,7 +135,7 @@ declare type NewDwollaCustomerParams = {
   postalCode: string;
   dateOfBirth: string;
   ssn: string;
-};
+}
 
 declare interface CreditCardProps {
   account: Account;

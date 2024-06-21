@@ -3,7 +3,7 @@
 import { createSessionClient, createAdminClient } from '../server/appwrite'
 import { ID } from "node-appwrite"
 import {cookies} from "next/headers"
-import {parseStringify} from "../utils";
+import {parseStringify} from "../utils"
 import {CountryCode, Products} from "plaid"
 import { plaidClient } from '../plaid'
 
