@@ -31,7 +31,7 @@ const Home = async () => {
                 banks={[{ currentBalance: 12}, {currentBalance: 55}]}
             />
         </section>
-    );
-};
+    )
+}
 
-export default Home;
+export default Home

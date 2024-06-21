@@ -16,7 +16,7 @@ import {useRouter} from "next/navigation"
 import CustomInput from "./CustomInput"
 import {authFormSchema} from "../lib/utils"
 import {signIn, signUp} from "../lib/actions/user.actions"
-import PlaidLink from "./PlaidLink";
+import PlaidLink from "./PlaidLink"
 
 const AuthForm = ({type}: { type: string}) => {
     const router = useRouter()

@@ -1,8 +1,8 @@
 import React, {useCallback, useEffect, useState} from 'react'
 import {Button} from "./ui/button"
 import {PlaidLinkOnSuccess, PlaidLinkOptions, usePlaidLink} from "react-plaid-link"
-import {useRouter} from "next/navigation";
-import {createLinkToken} from "../lib/actions/user.actions";
+import {useRouter} from "next/navigation"
+import {createLinkToken} from "../lib/actions/user.actions"
 
 const PlaidLink = ({ user, variant }: PlaidLinkProps) => {
     const [token, setToken] = useState('')
@@ -44,7 +44,7 @@ const PlaidLink = ({ user, variant }: PlaidLinkProps) => {
                 <Button>Connect bank</Button>
             )}
         </>
-    );
+    )
 }
 
 export default PlaidLink

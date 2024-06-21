@@ -19,18 +19,18 @@ export const sidebarLinks = [
     route: "/payment-transfer",
     label: "Transfer Funds",
   },
-];
+]
 
 // good_user / good_password - Bank of America
-export const TEST_USER_ID = "6627ed3d00267aa6fa3e";
+export const TEST_USER_ID = "6627ed3d00267aa6fa3e"
 
 // custom_user -> Chase Bank
 // export const TEST_ACCESS_TOKEN =
-//   "access-sandbox-da44dac8-7d31-4f66-ab36-2238d63a3017";
+//   "access-sandbox-da44dac8-7d31-4f66-ab36-2238d63a3017"
 
 // custom_user -> Chase Bank
 export const TEST_ACCESS_TOKEN =
-  "access-sandbox-229476cf-25bc-46d2-9ed5-fba9df7a5d63";
+  "access-sandbox-229476cf-25bc-46d2-9ed5-fba9df7a5d63"
 
 export const ITEMS = [
   {
@@ -47,7 +47,7 @@ export const ITEMS = [
     userId: "6627ed3d00267aa6fa3e",
     accountId: "x1GQb1lDrDHWX4BwkqQbI4qpQP1lL6tJ3VVo9",
   },
-];
+]
 
 export const topCategoryStyles = {
   "Food and Drink": {
@@ -89,7 +89,7 @@ export const topCategoryStyles = {
     },
     icon: "/icons/shopping-bag.svg",
   },
-};
+}
 
 export const transactionCategoryStyles = {
   "Food and Drink": {
@@ -134,4 +134,4 @@ export const transactionCategoryStyles = {
     textColor: "text-blue-700",
     chipBackgroundColor: "bg-inherit",
   },
-};
+}

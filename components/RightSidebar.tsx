@@ -1,7 +1,8 @@
-import React from 'react';
-import Link from "next/link";
-import Image from "next/image";
-import BankCard from "./BankCard";
+import React from 'react'
+import Link from "next/link"
+import Image from "next/image"
+
+import BankCard from "./BankCard"
 
 const RightSidebar = ({ user, transactions, banks }: RightSidebarProps) => {
     return (
@@ -57,7 +58,7 @@ const RightSidebar = ({ user, transactions, banks }: RightSidebarProps) => {
                 )}
             </section>
         </aside>
-    );
-};
+    )
+}
 
-export default RightSidebar;
+export default RightSidebar

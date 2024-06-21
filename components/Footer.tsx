@@ -2,7 +2,7 @@ import React from 'react'
 import Image from "next/image"
 
 import {logoutAccount} from "../lib/actions/user.actions"
-import {useRouter} from "next/navigation";
+import {useRouter} from "next/navigation"
 
 const Footer = ({ user, type }: FooterProps) => {
     const router = useRouter()
@@ -31,7 +31,7 @@ const Footer = ({ user, type }: FooterProps) => {
                 <Image src='icons/logout.svg' fill alt='logout'/>
             </div>
         </footer>
-    );
-};
+    )
+}
 
-export default Footer;
+export default Footer
